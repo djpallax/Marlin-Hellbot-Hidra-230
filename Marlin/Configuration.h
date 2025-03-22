@@ -566,8 +566,8 @@
  *   998 : Dummy Table that ALWAYS reads 25°C or the temperature defined below.
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  */
-#define TEMP_SENSOR_0 1
-#define TEMP_SENSOR_1 998
+#define TEMP_SENSOR_0 998
+#define TEMP_SENSOR_1 1
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
@@ -1886,7 +1886,7 @@
 #define Y_BED_SIZE 235
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
-#define X_MIN_POS 0
+#define X_MIN_POS -45
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define X_MAX_POS 280
